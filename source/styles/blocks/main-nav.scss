@@ -1,0 +1,11 @@
+@include "../common/fonts.scss"
+
+
+main-nav {color: #000;
+font-family: $primary-font;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 100% */
+text-transform: uppercase;
+}
