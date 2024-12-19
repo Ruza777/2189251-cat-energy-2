@@ -1,0 +1,60 @@
+.basic-catalog__title {
+  @include title-simple;
+}
+
+.basic-catalog__list {
+  list-style: none;
+}
+
+.basic-catalog__link {
+  text-decoration: none;
+}
+
+.basic-catalog__product-name {
+  @include title-uppercase ($color: #222222,$line-height: 20px);
+}
+
+.basic-catalog__product-description {
+  @include text( $font-size: 12px, $line-height: 16px);
+}
+
+.basic-catalog__product-button {
+  @include button( $padding: 10px 109px,$font-family:$secondary-font, $font-size: 16px, $line-height: 20px);
+}
+
+.basic-catalog__view-all {
+  h2 {
+    @include title-uppercase($font-size:16px, $line-height: 20px);
+  }
+
+  p {
+    @include text($font-size: 12px, $line-height: 16px);
+  }
+}
+
+.basic-catalog__view-all-button {
+  @include button ($bg-color: #F2F2F2, $text-color: #444444, $padding: 10px 94px,$font-family:$secondary-font, $font-size: 16px, $line-height: 20px);
+}
+
+.basic-catalog--additional-catalog {
+  h2 {
+    @include title-simple($font-size: 24px, $color: #000000, $line-height: 24px);
+  }
+
+  .basic-catalog__product-name {
+    line-height: 16px;
+  }
+
+  .basic-catalog__product-description {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+
+.basic-catalog__gift {
+  background-color: hsla(97, 53%, 47%, 0.85);
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+}
+
