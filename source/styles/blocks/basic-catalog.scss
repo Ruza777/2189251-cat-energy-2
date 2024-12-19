@@ -11,34 +11,48 @@
 }
 
 .basic-catalog__product-name {
-  @include title-uppercase ($color: #222222,$line-height: 20px);
+  @include title-uppercase ();
+  color: #222222;
+  line-height: 20px;
 }
 
 .basic-catalog__product-description {
-  @include text( $font-size: 12px, $line-height: 16px);
+  @include text();
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .basic-catalog__product-button {
-  @include button( $padding: 10px 109px,$font-family:$secondary-font, $font-size: 16px, $line-height: 20px);
+  @include button();
+  padding: 10px 109px;
 }
 
 .basic-catalog__view-all {
   h2 {
-    @include title-uppercase($font-size:16px, $line-height: 20px);
+    @include title-uppercase();
+    font-size: 16px;
+    line-height: 20px;
   }
 
   p {
-    @include text($font-size: 12px, $line-height: 16px);
+    @include text();
+    font-size: 12px;
+    line-height: 16px;
   }
 }
 
 .basic-catalog__view-all-button {
-  @include button ($bg-color: #F2F2F2, $text-color: #444444, $padding: 10px 94px,$font-family:$secondary-font, $font-size: 16px, $line-height: 20px);
+  @include button ();
+  background-color: #f2f2f2;
+  color: #ffffff;
+  padding: 10px 94px;
 }
 
 .basic-catalog--additional-catalog {
   h2 {
-    @include title-simple($font-size: 24px, $color: #000000, $line-height: 24px);
+    @include title-simple();
+    font-size: 24px;
+    line-height: 24px;
   }
 
   .basic-catalog__product-name {
