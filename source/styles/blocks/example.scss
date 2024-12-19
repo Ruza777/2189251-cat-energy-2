@@ -3,7 +3,8 @@
 }
 
 .example__title {
-  @include title-simple($line-height: 40px);
+  @include title-simple;
+  line-height: 40px;
 }
 
 .example__list-data {
@@ -11,9 +12,13 @@
 }
 
 .example__list-data-description {
-  @include text ($font-size: 12px, $line-height: 12px);
+  @include text;
+  font-size: 12px;
+  line-height: 12px;
 }
 
 .example__item-expenses {
-  @include title-uppercase($font-size: 14px, $line-height: 20px);
+  @include title-uppercase;
+  font-size: 14px;
+  line-height: 20px;
 }

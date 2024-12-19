@@ -11,38 +11,37 @@
 }
 
 .basic-catalog__product-name {
-  @include title-uppercase ();
+  @include title-uppercase;
   color: #222222;
   line-height: 20px;
 }
 
 .basic-catalog__product-description {
-  @include text();
+  @include text;
   font-size: 12px;
   line-height: 16px;
 }
 
 .basic-catalog__product-button {
-  @include button();
+  @include button;
   padding: 10px 109px;
 }
 
 .basic-catalog__view-all {
   h2 {
-    @include title-uppercase();
-    font-size: 16px;
+    @include title-uppercase;
     line-height: 20px;
   }
 
   p {
-    @include text();
+    @include text;
     font-size: 12px;
     line-height: 16px;
   }
 }
 
 .basic-catalog__view-all-button {
-  @include button ();
+  @include button;
   background-color: #f2f2f2;
   color: #ffffff;
   padding: 10px 94px;
@@ -50,7 +49,7 @@
 
 .basic-catalog--additional-catalog {
   h2 {
-    @include title-simple();
+    @include title-simple;
     font-size: 24px;
     line-height: 24px;
   }
@@ -60,7 +59,6 @@
   }
 
   .basic-catalog__product-description {
-    font-size: 14px;
     line-height: 14px;
   }
 }

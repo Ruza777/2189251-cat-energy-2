@@ -4,15 +4,20 @@
 }
 
 .food-program__choice-title {
-  @include title-simple($font-size: 36px, $color: #ffffff, $line-height: 36px);
+  @include title-simple;
+  color: #ffffff;
 }
 
 .food-program__choice-subtitle {
-  @include title-uppercase($font-size: 14px, $color: #ffffff, $line-height: 14px);
+  @include title-uppercase;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 14px;
 }
 
 .food-program__choice-button {
-  @include button ($padding:10px 64px);
+  @include button;
+  padding: 10px 64px;
 }
 
 .food-program__type {
@@ -20,14 +25,14 @@
 }
 
 .food-program__type-title {
-  @include title-uppercase($font-size: 24px, $color: #000000, $line-height: 37px);
+  @include title-uppercase;
+  color: #000000;
+  font-size: 24px;
+  line-height: 37px;
 }
 
-// .food-program__text {
-//   @include text;
-// }
-
 .food-program__link {
-  @include title-uppercase ($color: #000000);
+  @include title-uppercase;
+  color: #000000;
   text-decoration: none;
 }
