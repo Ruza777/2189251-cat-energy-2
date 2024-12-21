@@ -3,3 +3,8 @@
 body {
   @include text;
 }
+
+* ::after,
+* ::before {
+  box-sizing: border-box;
+}
