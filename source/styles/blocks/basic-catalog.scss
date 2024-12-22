@@ -38,6 +38,17 @@
     font-size: 12px;
     line-height: 16px;
   }
+
+  position: relative;
+  padding: 78px 59px 8px;
+
+  &::before {
+    @include pseudo-element-bg ($url: url("../../icons/stack.svg#plus"));
+    width: 30px;
+    height: 30px;
+    top: 25%;
+    left: 30%;
+  }
 }
 
 .basic-catalog__view-all-button {
@@ -63,18 +74,6 @@
   }
 }
 
-.basic-catalog__view-all h2 {
-  position: relative;
-  padding: 78px 59px 8px;
-
-  &::before {
-    @include pseudo-element-bg ($url: url("../../icons/stack.svg#plus"));
-    width: 30px;
-    height: 30px;
-    top: 25%;
-    left: 30%;
-  }
-}
 
 .basic-catalog__gift {
 
