@@ -1,0 +1,29 @@
+.page-footer__copyright-link {
+  display: block;
+  mask-repeat: no-repeat;
+  mask-position: center;
+}
+
+.page-footer__copyright-link--text {
+  background-color: #666666;
+  mask-image: url("../../icons/stack.svg#logo-htmlAcademy-text");
+  width: 115px;
+  height: 20px;
+
+  &:hover,
+  &:focus {
+    background-color: #00ffa2;
+  }
+}
+
+.page-footer__copyright-link--pic {
+  background-color: #666666;
+  mask-image: url("../../icons/stack.svg#logo-htmlAcademy");
+  width: 27px;
+  height: 34px;
+
+  &:hover,
+  &:focus {
+    background-color: #00ffa2;
+  }
+}
