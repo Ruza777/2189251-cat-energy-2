@@ -19,7 +19,7 @@
       position: absolute;
       top: 165px;
       left: 20px;
-      z-index: 2;
+      z-index: 1;
     }
   }
 
@@ -244,4 +244,3 @@
 .food-program__link:active::after {
   background-color: rgba(0, 0, 0, 0.3);
 }
-

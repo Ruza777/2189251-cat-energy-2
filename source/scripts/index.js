@@ -21,7 +21,7 @@ const imageRight = document.querySelector('.example__image--before');
 
 let isDragging = false;
 
-slider.addEventListener('mousedown', (e) => {
+slider.addEventListener('mousedown', () => {
   isDragging = true;
   document.body.style.cursor = 'ew-resize';
 });
@@ -46,5 +46,3 @@ document.addEventListener('mouseup', () => {
   isDragging = false;
   document.body.style.cursor = 'default';
 });
-
-

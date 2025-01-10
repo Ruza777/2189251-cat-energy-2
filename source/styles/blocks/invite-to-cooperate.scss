@@ -3,6 +3,10 @@
   padding: 26px 20px;
   min-height: 112px;
   display: flex;
+
+  @media (min-width: $tablet-width) {
+    justify-content: space-between;
+  }
 }
 
 .invite-to-cooperate__title {
