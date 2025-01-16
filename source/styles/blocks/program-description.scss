@@ -22,6 +22,11 @@
 
   @media (min-width: $desktop-width) {
     grid-template-columns: repeat(4, 1fr);
+    list-style-type: none; /* Отключаем стандартную нумерацию */
+    counter-reset: num; /* Инициализируем счетчик */
+    margin: 0 0 0 45px; /* Добавляем отступ для номеров */
+    padding: 15px 0 5px;
+    font-size: 16px;
   }
 }
 
@@ -32,6 +37,22 @@
   padding-left: 100px;
   position: relative;
   list-style: none;
+}
+
+.program-description__item::after {
+  @media (min-width: $tablet-width) {
+
+    content: counter(num);
+    counter-increment: num;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: -38px;
+    color: #f2f2f2;
+    text-align: center;
+    line-height: 280px;
+    font-size: 280px;
+  }
 }
 
 .program-description__item--useful::before {

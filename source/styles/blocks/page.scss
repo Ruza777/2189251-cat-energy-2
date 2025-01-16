@@ -4,6 +4,7 @@
   margin: 0 auto;
   font-size: 14px;
   line-height: 18px;
+  // width: 320px;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
@@ -15,13 +16,13 @@
 
   margin: 0 auto;
   min-height: 100%;
-  grid-template-rows: min-content 1fr min-content;
-  border: 1px solid #0000ff;
+  // grid-template-rows: min-content 1fr min-content;
+  // outline: 1px solid #0000ff;
+  width: 320px;
 
+  // @media (max-width: $mobile-width) {
 
-  @media (max-width: $mobile-width) {
-    width: 320px;
-  }
+  // }
 
   @media (min-width: $tablet-width) {
     width: 768px;

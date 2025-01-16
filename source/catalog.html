@@ -9,7 +9,7 @@
   <script src="scripts/index.js" defer></script>
   <link rel="icon" href="favicon.ico">
   <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="favicons/apple.png"><!-- 180×180 -->
+  <link rel="apple-touch-icon" href="favicons/apple.png">
 </head>
 
 <body class="page__body">
@@ -25,7 +25,7 @@
             <img src="images/logo-pic-mobile.svg" width="33" height="38" alt="Логотип Cat Energy.">
           </picture>
         </a>
-        <a class="main-nav__link" href="#"><img class="logo-text" src="images/logo-text.svg" width="101" height="18" alt="компания Cat Energy"></a>
+        <a class="main-nav__link logo-text" href="#"><img class="logo-text" src="images/logo-text.svg" width="101" height="18" alt="компания Cat Energy"></a>
       </div>
 
       <button class="main-nav__toggle" type="button" id="burger-btn">
@@ -48,11 +48,12 @@
     <h1 class="visually-hidden">Каталог продукции здорового питания кошек</h1>
 
     <section class="basic-catalog">
-
       <h2 class="basic-catalog__title">Каталог продукции</h2>
+
       <ul class="basic-catalog__list">
 
         <li class="basic-catalog__product-card">
+
           <a class="product-card" href="#">
             <picture>
               <source width="169" height="210" type="image/png" media="(min-width: 1440px)" srcset="images/pro-500-chicken-desktop@1x.png 1x, images/pro-500-chicken-desktop@2x.png 2x">
@@ -60,10 +61,12 @@
               <img class="basic-catalog__product-picture" src="images/pro-500-chicken-mobile@1x.png" srcset="images/pro-500-chicken-mobile@2x.png 2x" width="140" height="107" alt="Cat Energy PRO 500 г курица">
             </picture>
           </a>
+
           <div class="basic-catalog__product-wrapper">
             <a class="basic-catalog__link" href="#">
-              <p class="basic-catalog__product-name">Cat Energy PRO<span class="basic-catalog__product-weight">500 г</span></p>
+              <p class="basic-catalog__product-name">Cat Energy<span class="basic-catalog__product-weight">PRO 500 г</span></p>
             </a>
+
             <dl class="basic-catalog__product-description">
               <dt class="basic-catalog__product-property">Масса</dt>
               <dd class="basic-catalog__product-value">500 г</dd>
@@ -73,7 +76,9 @@
               <dd class="basic-catalog__product-value">700 &#8381;</dd>
             </dl>
           </div>
+
           <a class="basic-catalog__product-button button" href="#">заказать</a>
+
         </li>
 
         <li class="basic-catalog__product-card">
@@ -84,17 +89,20 @@
               <img class="basic-catalog__product-picture" src="images/pro-1000-chicken-mobile@1x.png" srcset="images/pro-1000-chicken-mobile@2x.png 2x" width="140" height="107" alt="Cat Energy PRO 1000г курица">
             </picture>
           </a>
-          <a class="basic-catalog__link" href="#">
-            <p class="basic-catalog__product-name">Cat Energy PRO 1000 г<span class="basic-catalog__product-weight"></span></p>
-          </a>
-          <dl class="basic-catalog__product-description">
-            <dt class="basic-catalog__product-property">Масса</dt>
-            <dd class="basic-catalog__product-value">1000 г</dd>
-            <dt class="basic-catalog__product-property">Вкус</dt>
-            <dd class="basic-catalog__product-value">Курица</dd>
-            <dt class="basic-catalog__product-property">Цена</dt>
-            <dd class="basic-catalog__product-value">1000 &#8381;</dd>
-          </dl>
+
+          <div class="basic-catalog__product-wrapper">
+            <a class="basic-catalog__link" href="#">
+              <p class="basic-catalog__product-name">Cat Energy<span class="basic-catalog__product-weight">PRO 1000 г</span></p>
+            </a>
+            <dl class="basic-catalog__product-description">
+              <dt class="basic-catalog__product-property">Масса</dt>
+              <dd class="basic-catalog__product-value">1000 г</dd>
+              <dt class="basic-catalog__product-property">Вкус</dt>
+              <dd class="basic-catalog__product-value">Курица</dd>
+              <dt class="basic-catalog__product-property">Цена</dt>
+              <dd class="basic-catalog__product-value">1000 &#8381;</dd>
+            </dl>
+          </div>
           <a class="basic-catalog__product-button button" href="#">заказать</a>
         </li>
 
@@ -106,18 +114,20 @@
               <img class="basic-catalog__product-picture" src="images/pro-500-fish-mobile@1x.png" srcset="images/pro-500-fish-mobile@2x.png 2x" width="140" height="107" alt="Cat Energy PRO 500г рыба">
             </picture>
           </a>
-          <a class="basic-catalog__link" href="#">
-            <p class="basic-catalog__product-name">Cat Energy PRO<span class="basic-catalog__product-weight"></span></p>
-          </a>
-          <dl class="basic-catalog__product-description">
+          <div class="basic-catalog__product-wrapper">
+            <a class="basic-catalog__link" href="#">
+              <p class="basic-catalog__product-name">Cat Energy<span class="basic-catalog__product-weight">PRO 500 г</span></p>
+            </a>
+            <dl class="basic-catalog__product-description">
 
-            <dt class="basic-catalog__product-property">Масса</dt>
-            <dd class="basic-catalog__product-value">500г</dd>
-            <dt class="basic-catalog__product-property">Вкус</dt>
-            <dd class="basic-catalog__product-value">Рыба</dd>
-            <dt class="basic-catalog__product-property">Цена</dt>
-            <dd class="basic-catalog__product-value">700 &#8381;</dd>
-          </dl>
+              <dt class="basic-catalog__product-property">Масса</dt>
+              <dd class="basic-catalog__product-value">500 г</dd>
+              <dt class="basic-catalog__product-property">Вкус</dt>
+              <dd class="basic-catalog__product-value">Рыба</dd>
+              <dt class="basic-catalog__product-property">Цена</dt>
+              <dd class="basic-catalog__product-value">700 &#8381;</dd>
+            </dl>
+          </div>
           <a class="basic-catalog__product-button button" href="#">заказать</a>
         </li>
 
@@ -129,17 +139,19 @@
               <img class="basic-catalog__product-picture" src="images/pro-1000-fish-mobile@1x.png" srcset="images/pro-1000-fish-mobile@2x.png 2x" width="140" height="107" alt="Cat Energy PRO 1000 г рыба">
             </picture>
           </a>
-          <a class="basic-catalog__link" href="#">
-            <p class="basic-catalog__product-name">Cat Energy PRO<span class="basic-catalog__product-weight"></span></p>
-          </a>
-          <dl class="basic-catalog__product-description">
-            <dt class="basic-catalog__product-property">Масса</dt>
-            <dd class="basic-catalog__product-value">1000 г</dd>
-            <dt class="basic-catalog__product-property">Вкус</dt>
-            <dd class="basic-catalog__product-value">Рыба</dd>
-            <dt class="basic-catalog__product-property">Цена</dt>
-            <dd class="basic-catalog__product-value">1000 &#8381;</dd>
-          </dl>
+          <div class="basic-catalog__product-wrapper">
+            <a class="basic-catalog__link" href="#">
+              <p class="basic-catalog__product-name">Cat Energy<span class="basic-catalog__product-weight">PRO 1000 г</span></p>
+            </a>
+            <dl class="basic-catalog__product-description">
+              <dt class="basic-catalog__product-property">Масса</dt>
+              <dd class="basic-catalog__product-value">1000 г</dd>
+              <dt class="basic-catalog__product-property">Вкус</dt>
+              <dd class="basic-catalog__product-value">Рыба</dd>
+              <dt class="basic-catalog__product-property">Цена</dt>
+              <dd class="basic-catalog__product-value">1000 &#8381;</dd>
+            </dl>
+          </div>
           <a class="basic-catalog__product-button button" href="#">заказать</a>
         </li>
 
@@ -151,17 +163,19 @@
               <img class="basic-catalog__product-picture" src="images/slim-500-buckwheat-mobile@1x.png" srcset="images/slim-500-buckwheat-mobile@2x.png 2x" width="140" height="107" alt="Cat Energy SLIM  500 г гречка">
             </picture>
           </a>
-          <a class="basic-catalog__link" href="#">
-            <p class="basic-catalog__product-name">Cat Energy SLIM<span class="basic-catalog__product-weight"></span></p>
-          </a>
-          <dl class="basic-catalog__product-description">
-            <dt class="basic-catalog__product-property">Масса</dt>
-            <dd class="basic-catalog__product-value">500г</dd>
-            <dt class="basic-catalog__product-property">Вкус</dt>
-            <dd class="basic-catalog__product-value">Гречка</dd>
-            <dt class="basic-catalog__product-property">Цена</dt>
-            <dd class="basic-catalog__product-value">400 &#8381;</dd>
-          </dl>
+          <div class="basic-catalog__product-wrapper">
+            <a class="basic-catalog__link" href="#">
+              <p class="basic-catalog__product-name">Cat Energy<span class="basic-catalog__product-weight">SLIM 500 г</span></p>
+            </a>
+            <dl class="basic-catalog__product-description">
+              <dt class="basic-catalog__product-property">Масса</dt>
+              <dd class="basic-catalog__product-value">500 г</dd>
+              <dt class="basic-catalog__product-property">Вкус</dt>
+              <dd class="basic-catalog__product-value">Гречка</dd>
+              <dt class="basic-catalog__product-property">Цена</dt>
+              <dd class="basic-catalog__product-value">400 &#8381;</dd>
+            </dl>
+          </div>
           <a class="basic-catalog__product-button button" href="#">заказать</a>
         </li>
 
@@ -173,17 +187,19 @@
               <img class="basic-catalog__product-picture" src="images/slim-1000-buckwheat-mobile@1x.png" srcset="images/slim-1000-buckwheat-mobile@2x.png 2x" width="140" height="107" alt="Cat Energy SLIM 1000г гречка">
             </picture>
           </a>
-          <a class="basic-catalog__link" href="#">
-            <p class="basic-catalog__product-name">Cat Energy SLIM<span class="basic-catalog__product-weight"></span></p>
-          </a>
-          <dl class="basic-catalog__product-description">
-            <dt class="basic-catalog__product-property">Масса</dt>
-            <dd class="basic-catalog__product-value">1000 г</dd>
-            <dt class="basic-catalog__product-property">Вкус</dt>
-            <dd class="basic-catalog__product-value">Гречка</dd>
-            <dt class="basic-catalog__product-property">Цена</dt>
-            <dd class="basic-catalog__product-value">700 &#8381;</dd>
-          </dl>
+          <div class="basic-catalog__product-wrapper">
+            <a class="basic-catalog__link" href="#">
+              <p class="basic-catalog__product-name">Cat Energy<span class="basic-catalog__product-weight">SLIM 1000 г</span></p>
+            </a>
+            <dl class="basic-catalog__product-description">
+              <dt class="basic-catalog__product-property">Масса</dt>
+              <dd class="basic-catalog__product-value">1000 г</dd>
+              <dt class="basic-catalog__product-property">Вкус</dt>
+              <dd class="basic-catalog__product-value">Гречка</dd>
+              <dt class="basic-catalog__product-property">Цена</dt>
+              <dd class="basic-catalog__product-value">700 &#8381;</dd>
+            </dl>
+          </div>
           <a class="basic-catalog__product-button button" href="#">заказать</a>
         </li>
 
@@ -195,21 +211,23 @@
               <img class="basic-catalog__product-picture" src="images/slim-500-rice-mobile@1x.png" srcset="images/slim-500-rice-mobile@2x.png 2x" width="140" height="107" alt="Cat Energy SLIM 500г рис">
             </picture>
           </a>
-          <a class="basic-catalog__link" href="#">
-            <p class="basic-catalog__product-name">Cat Energy SLIM<span class="basic-catalog__product-weight"></span></p>
-          </a>
-          <dl class="basic-catalog__product-description">
-            <dt class="basic-catalog__product-property">Масса</dt>
-            <dd class="basic-catalog__product-value">500 г</dd>
-            <dt class="basic-catalog__product-property">Вкус</dt>
-            <dd class="basic-catalog__product-value">Рис</dd>
-            <dt class="basic-catalog__product-property">Цена</dt>
-            <dd class="basic-catalog__product-value">500 &#8381;</dd>
-          </dl>
+          <div class="basic-catalog__product-wrapper">
+            <a class="basic-catalog__link" href="#">
+              <p class="basic-catalog__product-name">Cat Energy<span class="basic-catalog__product-weight">SLIM 500 г</span></p>
+            </a>
+            <dl class="basic-catalog__product-description">
+              <dt class="basic-catalog__product-property">Масса</dt>
+              <dd class="basic-catalog__product-value">500 г</dd>
+              <dt class="basic-catalog__product-property">Вкус</dt>
+              <dd class="basic-catalog__product-value">Рис</dd>
+              <dt class="basic-catalog__product-property">Цена</dt>
+              <dd class="basic-catalog__product-value">500 &#8381;</dd>
+            </dl>
+          </div>
           <a class="basic-catalog__product-button button" href="#">заказать</a>
         </li>
 
-        <li class="basic-catalog__view-all">
+        <li class="basic-catalog__product-card basic-catalog__view-all">
           <h2>Показать еще 100500 товаров</h2>
           <p>На самом деле вкусов гораздо больше!</p>
           <a class="basic-catalog__view-all-button button" href="#">показать все</a>
@@ -218,58 +236,58 @@
       </ul>
     </section>
 
-    <section class="basic-catalog basic-catalog--additional-catalog">
+    <section class="basic-catalog basic-catalog-additional">
 
       <h2>Дополнительные товары</h2>
-      <ul class="basic-catalog__list basic-catalog__list--additional">
-        <li class="basic-catalog__product-card ">
-          <a class="basic-catalog__link" href="#">
-            <p class="basic-catalog__product-name">Сахарозаменитель</p>
-          </a>
-          <dl class="basic-catalog__product-description">
-            <dt class="basic-catalog__product-property">1 упаковка (100 г)</dt>
-            <dd class="basic-catalog__product-value">200 &#8381;</dd>
-          </dl>
-          <a class="basic-catalog__product-button button" href="#">заказать</a>
-        </li>
+      <div class="basic-catalog-additional_wrapper">
+        <ul class="basic-catalog__list basic-catalog__list--additional">
+          <li class="basic-catalog__product-card basic-catalog__product-card--additional">
+            <a class="basic-catalog__link" href="#">
+              <p class="basic-catalog__product-name">Сахарозаменитель</p>
+            </a>
+            <dl class="basic-catalog__product-description">
+              <dt class="basic-catalog__product-property">1 упаковка (100 г)</dt>
+              <dd class="basic-catalog__product-value">200 &#8381;</dd>
+            </dl>
+            <a class="basic-catalog__product-button button" href="#">заказать</a>
+          </li>
 
-        <li class="basic-catalog__product-card ">
-          <a class="basic-catalog__link" href="#">
-            <p class="basic-catalog__product-name">Питьевая вода</p>
-          </a>
-          <dl class="basic-catalog__product-description">
-            <dt class="basic-catalog__product-property">5 литров</dt>
-            <dd class="basic-catalog__product-value">50 &#8381;</dd>
-          </dl>
-          <a class="basic-catalog__product-button button" href="#">заказать</a>
-        </li>
+          <li class="basic-catalog__product-card basic-catalog__product-card--additional">
+            <a class="basic-catalog__link" href="#">
+              <p class="basic-catalog__product-name">Питьевая вода</p>
+            </a>
+            <dl class="basic-catalog__product-description">
+              <dt class="basic-catalog__product-property">5 литров</dt>
+              <dd class="basic-catalog__product-value">50 &#8381;</dd>
+            </dl>
+            <a class="basic-catalog__product-button button" href="#">заказать</a>
+          </li>
 
-        <li class="basic-catalog__product-card ">
-          <a class="basic-catalog__link" href="#">
-            <p class="basic-catalog__product-name">Молоко</p>
-          </a>
-          <dl class="basic-catalog__product-description">
-            <dt class="basic-catalog__product-property">1 литр</dt>
-            <dd class="basic-catalog__product-value">100 &#8381;</dd>
-          </dl>
-          <a class="basic-catalog__product-button button" href="#">заказать</a>
-        </li>
+          <li class="basic-catalog__product-card basic-catalog__product-card--additional">
+            <a class="basic-catalog__link" href="#">
+              <p class="basic-catalog__product-name">Молоко</p>
+            </a>
+            <dl class="basic-catalog__product-description">
+              <dt class="basic-catalog__product-property">1 литр</dt>
+              <dd class="basic-catalog__product-value">100 &#8381;</dd>
+            </dl>
+            <a class="basic-catalog__product-button button" href="#">заказать</a>
+          </li>
 
-        <li class="basic-catalog__product-card ">
-          <a class="basic-catalog__link" href="#">
-            <p class="basic-catalog__product-name">Витамины</p>
-          </a>
-          <dl class="basic-catalog__product-description">
-            <dt class="basic-catalog__product-property">1 упаковка (30 г)</dt>
-            <dd class="basic-catalog__product-value">300 &#8381;</dd>
-          </dl>
-          <a class="basic-catalog__product-button button" href="#">заказать</a>
-        </li>
-
-      </ul>
-
-      <div class="basic-catalog__gift">
-        Закажите все и получите чехол для кота в подарок!
+          <li class="basic-catalog__product-card basic-catalog__product-card--additional">
+            <a class="basic-catalog__link" href="#">
+              <p class="basic-catalog__product-name">Витамины</p>
+            </a>
+            <dl class="basic-catalog__product-description">
+              <dt class="basic-catalog__product-property">1 упаковка (30 г)</dt>
+              <dd class="basic-catalog__product-value">300 &#8381;</dd>
+            </dl>
+            <a class="basic-catalog__product-button button" href="#">заказать</a>
+          </li>
+        </ul>
+        <div class="basic-catalog__gift">
+          Закажите все и получите чехол для кота в подарок!
+        </div>
       </div>
     </section>
 
