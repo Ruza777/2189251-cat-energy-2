@@ -2,14 +2,7 @@
 
   margin: 0 auto;
   min-height: 100%;
-  // grid-template-rows: min-content 1fr min-content;
-  // border: 1px solid #0000ff;
-
   width: 320px;
-
-  // @media (max-width: $mobile-width) {
-
-  // }
 
   @media (min-width: $tablet-width) {
     width: 768px;
